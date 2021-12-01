@@ -46,7 +46,11 @@ CentOS 系统命令如下
 
 下载证书及密钥到指定文件夹
 
-第八步：`~/.acme.sh/acme.sh --installcert -d 删掉中文修改成你解析的域名 --key-file /root/private.key --fullchain-file /root/cert.crt`  以下画圈的就是你的证书和密钥啦  我是使用Finalshell  ssh工具查看的
+第八步：`~/.acme.sh/acme.sh --installcert -d 删掉中文修改成你解析的域名 --key-file /root/private.key --fullchain-file /root/cert.crt`  
+
+以下画圈的就是你的证书和密钥啦  我是使用Finalshell  ssh工具查看的   
+
+一般来说按照我的步骤来的话 公钥文件路径`/root/cert.crt` 密钥文件路径`/root/private.key`
 
 ![Inkedphoto_2021-11-30_19-42-29_LI](https://user-images.githubusercontent.com/94978556/144041552-469a1a71-5337-4562-af9d-9576a61cdc22.jpg)
 
