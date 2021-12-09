@@ -6,7 +6,7 @@
 
 脚本来源于https://mgxray.xyz/index.php/archives/362/
 
-第一步：域名一个 托管域名到 Cloudflare  解析vpsIP
+第一步：域名一个 托管域名到 Cloudflare  解析IP
 
 -----------------------------
 
