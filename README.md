@@ -1,5 +1,5 @@
 # VPS-SSL-证书
-关于vps申请证书的一种方法总结
+关于申请证书的一种方法
 ---------------------------
 
 脚本来源于https://www.v2rayssr.com/ssl.html
@@ -46,7 +46,10 @@ CentOS 系统命令如下
 
 下载证书及密钥到指定文件夹
 ------------------------------------------
-第八步：`~/.acme.sh/acme.sh --installcert -d 删掉中文修改成你解析的域名 --key-file /root/private.key --fullchain-file /root/cert.crt`  
+第八步：
+```
+~/.acme.sh/acme.sh --installcert -d 删掉中文修改成你解析的域名 --key-file /root/private.key --fullchain-file /root/cert.crt
+```
 
 以下画圈的就是你的证书和密钥啦  我是使用Finalshell  ssh工具查看的   
 
@@ -91,7 +94,7 @@ BBR加速脚本来源于：https://www.v2rayssr.com/bbr.html
 
 ------------------------------------------------------------
 
-学会了的话  赶紧去搭个小鸡场练练手吧的😂
+如果你学会了的话  赶紧去搭个小鸡场练练手吧😂
 
 
 
